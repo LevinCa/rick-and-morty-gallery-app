@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 2rem;
 }
 
 .App-logo {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.character-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+
+.character-card{
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.character-card img {
+  width: 100%;
 }
