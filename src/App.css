@@ -43,6 +43,7 @@
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 10vh;
+  justify-content: center;
 }
 
 .character-card{
